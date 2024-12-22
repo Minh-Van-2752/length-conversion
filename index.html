@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Length conversion</title>
+ <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/4220/4220178.png" sizes="32x32" type="image/png">
+ <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  
+  <form>
+    <h1>Length conversion:</h1>
+    <input type="number" id="textBox" value="0"><br>
+
+    <select name="unit" id="Length">
+      <option id="toCentimeter">Centimeter → Inch</option>
+      <option id="toMeter">Meter → Feet</option>
+      <option id="toFeet3">Feet → Meter</option>
+      <option id="toKilometer">Kilomiter → Mile</option>
+      <option id="toMile3">Mile → Kilomiter</option>
+      <option id="toFeet">Feet → Yard</option>
+      <option id="toYard">Yard → Feet</option>
+      <option id="toMile">Mile → Feet</option>
+      <option id="toFeet1">Feet → Mile</option>
+      <option id="toMile1">Mile → Yard</option>
+      <option id="toYard1">Yard → Mile</option>
+      <option id="toInch">Inch → Feet</option>
+      <option id="toFeet2">Feet → Inch</option>
+      <option id="toInch1">Inch → Yard</option>
+      <option id="toYard2">Yard → Inch</option>
+      <option id="toInch2">Inch → Mile</option>
+      <option id="toMile2">Mile → Inch</option>
+    </select><br>
+
+    <button type="button" onclick="convert()">submit</button>
+    <p id="result"></p>
+    
+  </form>
+
+ <script src="script.js"></script>
+</body>
+</html>
